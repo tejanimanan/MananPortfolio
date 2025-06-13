@@ -6,6 +6,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+// import "tailwindcss";
+
 function App() {
   return (
     <Router>
