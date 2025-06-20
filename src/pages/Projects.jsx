@@ -23,7 +23,22 @@ const Projects = () => {
       technologies: ["React", "Bootstrap5 CSS"],
       image: "toolm5.png",
       link: "https://tool-m5.vercel.app/"
+    },
+     {
+      title: "Trade Board",
+      description: "TradeBoard is a modern, full-featured trading management system built with React, Tailwind CSS, and Ant Design components. The application provides a complete administrative interface for managing trading operations, user accounts, and portfolio tracking.This TradeBoard application demonstrates a professional-grade trading management system suitable for brokerage firms, trading platforms, or portfolio management companies, combining modern web technologies with financial industry requirements.",
+      technologies: ["React", "Tailwind CSS","Antd design"],
+      image: "market.png",
+      link: "https://market-frontend-5tms.vercel.app/"
+    },
+    {
+      title: "Fashion Fizz",
+      description: "This project is a modern, fully responsive e-commerce fashion store built using React and Tailwind CSS. It features a clean, user-friendly interface with product listings, including shirts, boots, and bags, each with quick view and add-to-cart functionality. The cart detail section displays itemized pricing, discounts, and delivery charges, ensuring transparency. The design adapts seamlessly to all screen sizes, from mobile to desktop, providing an optimal shopping experience. With categorized product sections like Women, Men, and Accessories, the store offers easy navigation and a visually appealing layout.",
+      technologies: ["React", "Tailwind CSS","json-server"],
+      image: "fashionfizz.png",
+      link: "https://fashionfizz-new.vercel.app/"
     }
+
 
   ];
 
