@@ -33,6 +33,13 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+            <a
+              href="/Manan Tejani Resume.pdf"
+              download
+              className="text-gray-900 font-semibold hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+            >
+              Download Resume
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -65,6 +72,14 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+                        <a
+              href="/Manan Tejani Resume.pdf"
+              download
+              className="text-gray-700 hover:text-indigo-600 block px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       )}

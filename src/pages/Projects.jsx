@@ -27,7 +27,7 @@ const Projects = () => {
      {
       title: "Trade Board",
       description: "TradeBoard is a modern, full-featured trading management system built with React, Tailwind CSS, and Ant Design components. The application provides a complete administrative interface for managing trading operations, user accounts, and portfolio tracking.This TradeBoard application demonstrates a professional-grade trading management system suitable for brokerage firms, trading platforms, or portfolio management companies, combining modern web technologies with financial industry requirements.",
-      technologies: ["React", "Tailwind CSS","Antd design"],
+      technologies: ["React", "Redux","Tailwind CSS","Antd design"],
       image: "market.png",
       link: "https://market-frontend-5tms.vercel.app/"
     },
